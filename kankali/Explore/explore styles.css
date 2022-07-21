@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.container{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.row{  
+     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(2.JPG);
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    padding: 1rem 4rem;
+}
+.col{
+    flex-basis: 100%;
+    float: center;
+}
+button{
+    width: 180px;
+    color: maroon;
+    font-size: 12px;
+    padding: 12px 0;
+    background: grey;
+    border:0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30 px;
+}
+h2{
+    color: white;
+}
+h1{
+    color: fuchsia ;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_1768.JPG);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+.card1{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(images/2.JPG);
+}
+.card2{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/7.JPG);
+}
+.card3{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(images/8.JPG);
+}
+.card4{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/4.JPG);
+}
+.card5{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/photo11.JPG);
+}
+.card6{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/13.JPG);
+}
+.card7{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/1.JPG);
+}
+.card8{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/photo12.JPG);
+}
+.card9{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/12.JPG);
+}
+.card10{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(images/6.JPG);
+}
+
+
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+@media(max-width:480px){
+    .card{
+        width:100%;
+        margin-left: 0;
+    }
+    .col{
+        margin: 2rem  2rem;
+        width: 100%;
+    }
+    .row{
+        padding: 0;
+    }
+    }
+
+   

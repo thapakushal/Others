@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KSS | Home</title>
+  <link rel="icon" href="../Global/images/kankali.png" type="image/gif/png">
+  <link rel="stylesheet" href="home_style.css">
+  <link rel="stylesheet" href="../Global/styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="homefooter.css">
+</head>
+
+<body>
+  <script src="https://kit.fontawesome.com/6872adc047.js" crossorigin="anonymous"> </script>
+
+  <nav>
+    <div class="logo_wrapper">
+      <img src="../Global/images/kankali.png">
+      <div class="logo"> Kankali Higher Secondary School</div>
+  </div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+      <li><a class="active" href="#"><i class="fa-solid fa-house"></i>HOME</a></li>
+      <li><a href="../About Us/About us.htm"><i class="fa-solid fa-user"></i>ABOUT US</a></li>
+      <li><a href="../Facilities/facilities.htm"><i class="fa-solid fa-school"></i>OUR FACILITIES</a></li>
+      <li><a href="../Gallery/Gallery.htm"><i class="fa-solid fa-images"></i>GALLERY</a></li>
+      <li><a href="../Contact us/Contact Us.html"><i class="fa-solid fa-phone"></i>CONTACT US</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <div class="swiper">
+
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/photo1.jpg"></div>
+        <div class="swiper-slide"><img src="images/photo4.jpg"></div>
+        <div class="swiper-slide"><img src="images/photo3.jpg"></div>
+        <div class="swiper-slide"><img src="images/photo7.jpg"></div>
+        <div class="swiper-slide"><img src="images/8.jpg"></div>
+        <div class="swiper-slide"><img src="images/5.jpg"></div>
+
+
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+
+      loop: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+  <div class="Principal_message_wrapper">
+    <div class="headsir">
+      <img src="images/bishnu ji.jpg" alt="Avatar" class="image">
+      <div class="overlay ">Mr. Bishnu Prasad Paneru<br>Headmaster</div>
+    </div>
+    <div class="message">
+      <h2>^_^Message from the Principal:</h2>
+      <h3>We believe that education is a factor which brings change on human behavior in the society. Students from
+        various socio-economic and cultural backgrounds are being benefited as wellas
+        share common bond from this school. KSS is offering the quality education to all the
+        surrounding communities specially focusing on marginalized and deprived communities.
+        We assist students to have self-discipline along with self-respect. Also, we encourage
+        learning for excellence.
+        The school is able to meet the emerging technological development to fulfill the
+        demand of globalization, to improve students' learning, enhance quality education,
+        physical and managerial aspects, to identity and maximize the use of human resources
+        for the entire development of KSS.
+        Since 2073(2015) we have started technical and vocational stream in computer
+        engineering. We have been providing residential facilities for the technical
+        students.Our vision is to provide the quality education through model school.</h3>
+    </div>
+  </div>
+
+  <!-- <div class="why">
+    <h2>Why KSS?</h2>
+    <div class="why_container">
+      <div class="whyelm">
+        <h3> Good Facilities</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro unde quos corrupti officia laborum
+          exercitationem eaque corporis voluptate adipisci ab ratione aut eveniet soluta cupiditate harum, iste ipsa
+          quae repellat.</p>
+      </div>
+      <div class="whyy">
+        <h3> Experienced Instructors</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro unde quos corrupti officia laborum
+          exercitationem eaque corporis voluptate adipisci ab ratione aut eveniet soluta cupiditate harum, iste ipsa
+          quae repellat.</p>
+      </div>
+      <div class="ano">
+        <h3> Amazing Environment</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro unde quos corrupti officia laborum
+          exercitationem eaque corporis voluptate adipisci ab ratione aut eveniet soluta cupiditate harum, iste ipsa
+          quae repellat.</p>
+      </div>
+      <div class="ani">
+        <h3> Plenty Resources</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro unde quos corrupti officia laborum
+          exercitationem eaque corporis voluptate adipisci ab ratione aut eveniet soluta cupiditate harum, iste ipsa
+          quae repellat.</p>
+      </div>
+    </div>
+    </div> -->
+    <footer>
+      <div class="container">
+          <div class="sec aboutus">
+              <h2>About Us</h2>
+              <p>Kankali Seconday School Provides Best Qualiy Education With Practical Knowledge</p>
+
+              <ul class="sci">
+                  <li> <a href=""> <i class="fa fa-facebook-official" aria-hidden="true"></i> </a></li>
+                  <li> <a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a> </li>
+                  <li> <a href=""> <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a> </li>
+                  <li> <a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+                  
+              </ul>
+          </div>
+          <div class="sec quicklinks">
+              <h2>Quick Links</h2>
+              <ul>
+                  <li><a href="">Home </a></li>
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Facilities</a></li>
+                  <li><a href="">Gallery</a></li>
+                  <li><a href="">Contact Us</a></li>
+              </ul>
+          </div>
+          <div class="sec contact">
+           <h2>Contact Info</h2>
+           <ul class="info">
+              <li>
+                  <span><i class="fa fa-map" aria-hidden="true"></i>
+                  </span>
+                  <span>Chandragiri-13, Kathmandu</span>
+              </li>
+              <li>
+                  <span><i class="fa fa-phone-square" aria-hidden="true"></i></span>
+                  <p><a href="14151415">+12345678</a></p>
+              </li>
+          
+              <li>
+                  <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                  <p><a href="kankalischool@gmail.com">kankalischool.edu@gmail.com</a></p>
+              </li>
+              
+           </ul>
+          </div>
+         
+          </div>
+      </div>
+  </footer>
+  <div class="copyrighttext">
+      <p>Copyright Ⓒ 2022 Kankali Secondary School.All Rights Reserved.</p>
+  </div>
+
+</body>
+
+</html>

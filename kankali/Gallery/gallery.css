@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:ital,wght@0,300;0,500;1,600&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Koulen', cursive;
+}
+
+.header
+{
+    text-align: center;
+    font-size:2rem;
+    color:fuchsia;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+.responsive{
+    padding: 6px 6px;
+    float:right;
+    width:24.99999%;
+}
+
+div.gallery{
+    border: 2px solid #ccc;
+}
+div.gallery:hover{
+    border: 2px solid maroon;
+}
+div.gallery img{
+    width:100%;
+    height: auto;
+    transition: 0.5s; 
+    height: 18rem;
+   
+}
+div.gallery img:hover{
+   transform: scale(1.1);
+   cursor:pointer;
+}
+div.desc{
+    padding: 15px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+@media only screen and (max-width: 700px){
+    .responsive{
+        width:49.99999%;
+        margin:6px 0px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .responsive{
+        width:100%;
+        margin:6px 0px;
+    }
+}
