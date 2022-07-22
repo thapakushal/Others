@@ -1,18 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    /* color: #fff; */
-}
-body{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
-    background: #ede7f6;
-}
+
 footer
 {
     position: relative;
@@ -115,40 +101,40 @@ footer  p
     color: #fff;
 }
 
-.contact
+.contacts
 {
     width: calc(35% - 60px);
     margin-right: 0 !important;
 
 }
 
-.contact .info{
+.contacts .info{
     position: relative ;
 }
 
-.contact .info li
+.contacts .info li
 {
     display: flex;
     margin-bottom: 16px;
 }
-.contact .info li span:nth-child(1)
+.contacts .info li span:nth-child(1)
 {
     color:#fff;
     font-size: 20px;
     margin-right: 10px;
 }
 
-.contact .info li span
+.contacts .info li span
 {
     color: #999;
 }
-.contact .info li span a 
+.contacts .info li span a 
 {
      color: #999;
      text-decoration: none;
 }
 
-.contact .info li a:hover
+.contacts .info li a:hover
 {
     color: #fff;
 
